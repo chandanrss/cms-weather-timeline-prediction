@@ -1,0 +1,10 @@
+task_id,task_name,task_type,duration_days,depends_on,weather_sensitive,type_weight,weather_weight,start_date,end_date,estimate_cost,actual_cost,priority_score,change_applied,risk_score,adjusted_duration
+T1,Excavation,Excavation,7,,1,3,5,2025-05-01,2025-05-09,12000,11500,15,None,0.7,9
+T2,Soil Compaction,Groundwork,6,T1,1,2,5,2025-05-10,2025-05-15,9000,9500,13,None,,6
+T3,Foundation Pour,Concrete,11,T2,1,4,5,2025-05-16,2025-05-29,18000,23500,18,C1,0.6,14
+T4,Basement Waterproofing,Waterproofing,5,T3,1,2,5,2025-05-30,2025-06-03,7500,7200,12,None,,5
+T5,Backfilling,Groundwork,4,T4,1,2,5,2025-06-04,2025-06-08,6000,6000,11,None,0.5,5
+T6,Slab Casting,Concrete,7,T5,1,2,5,2025-06-09,2025-06-15,11000,11200,13,C2,,7
+T7,Ground Floor Column,Concrete,4,T6,0,4,0,2025-06-16,2025-06-19,9500,9700,8,None,,4
+T8,Ground Floor Walls,Masonry,5,T7,0,4,0,2025-06-20,2025-06-24,10000,9800,9,None,,5
+T9,Roof Slab,Concrete,9,T8,0,3,0,2025-06-25,2025-07-03,13000,21000,10,C3,0.4,9

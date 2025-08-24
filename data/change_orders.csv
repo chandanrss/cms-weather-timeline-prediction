@@ -1,0 +1,4 @@
+change_id,task_id,change_reason,change_type,added_duration,cost_impact
+C1,T3,Design revision,Scope Change,2,5000
+C2,T6,Material delay,Schedule Change,1,0
+C3,T9,Reinforcement redesign,Scope Change,2,7000

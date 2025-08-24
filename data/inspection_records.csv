@@ -1,0 +1,5 @@
+inspection_id,task_id,inspection_type,passed,inspector,date
+I1,T1,Excavation Depth Check,1,Inspector A,2025-07-03
+I2,T3,Concrete Slump Test,0,Inspector B,2025-07-10
+I3,T6,Rebar Layout,1,Inspector C,2025-07-18
+I4,T9,Roof Load Test,1,Inspector D,2025-07-27

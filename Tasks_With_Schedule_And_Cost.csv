@@ -1,0 +1,11 @@
+task_id,task_name,duration,dependencies,start_date,end_date,estimate_cost,actual_cost
+T1,Excavation,3,,2025-08-01,2025-08-03,10000,9500
+T2,Foundation Pour,4,T1,2025-08-04,2025-08-07,15000,16000
+T3,Basement Waterproofing,4,T2,2025-08-08,2025-08-11,8000,13500
+T4,Backfilling,3,T3,2025-08-12,2025-08-14,6000,6000
+T5,Slab Casting,4,T4,2025-08-15,2025-08-18,12000,11800
+T6,Ground Floor Column,6,T5,2025-08-19,2025-08-24,11000,11000
+T7,Ground Floor Walls,4,T6,2025-08-25,2025-08-28,9000,8700
+T8,Roof Slab,4,T7,2025-08-29,2025-09-01,13000,13500
+T9,Plumbing,5,T7,2025-08-29,2025-09-02,5000,14000
+T10,Electrical Wiring,3,T7,2025-08-29,2025-08-31,7000,7500
