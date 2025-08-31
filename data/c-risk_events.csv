@@ -1,0 +1,6 @@
+risk_id,task_id,risk_type,likelihood,impact,risk_score
+R1,T1,Soil instability,High,Medium,0.4
+R2,T3,Concrete mix issue,Medium,High,0.7
+R3,T5,Underground utilities,Low,High,0.8
+R4,T9,Crane availability,Medium,Medium,0.5
+R5,T2,Labour availability,Low,Low,0.3
